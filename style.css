@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: url(img/watches.jpg) no-repeat;
+    background-size: 600px;
+    background-position: right;
+    background-position-y: 100px;
+    background-position-x: 1000px;
+    /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 30px 200px 100px 200px;
+}
+.active{
+    color: #000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.navbar ul li a{
+    color: #777;  
+    font-weight: 500;
+    font-size: 14px;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    color: #000;  
+}
+.navbar ul li input{
+    border: none;
+    border-bottom: 2px solid #999;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    width: 150px;
+}
+.navbar ul li input:focus{
+    outline: none;
+}
+.main{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.main-header{
+    width: 50%;
+}
+.main-header h1{
+    margin-bottom: 50px;
+}
+.main-header p{
+    border-left: 2px solid #999;
+    line-height: 25px;
+    padding-left: 30px;
+    color: #999;
+    margin-bottom: 50px;
+}
+.main-header a{
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #E75E69;
+    padding: 12px 18px;
+}
+.main-header a:hover{
+    transition: 0.3s;
+    font-weight: bold;
+    background: #ce424e;
+}
+.main-box{
+    border-top: 1px solid #9999;
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+}
+.main-box .box-itms{
+    display: flex;
+}
+.main-box .box-itms .box{
+    width: 33.3%;
+}
+.main-box .box-itms .box strong{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.main-box .box-itms .box p{
+    margin-top: 50px;
+    line-height: 25px;
+}
+.main-box .box-itms .box .dots{
+    margin-top: 10px;
+    display: flex;
+}
+.main-box .box-itms .box .dot{
+    width: 5px;
+    height: 5px;
+    background-color: #999;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+.main-box .box-itms .box a{
+    display: inline-block;
+    color: #E75E69;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+a .line{
+    display: inline-block;
+    width: 30px;
+    background-color: #E75E69;
+    border: 1px solid #E75E69;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+.box a:hover .line{
+    transition: 0.2s;
+    width: 40px;
+}
+
+
+.main-box .box-itms .box .dot:nth-of-type(2){
+    margin: 0 15px;
+}
+.main-box .box-itms .box:nth-of-type(1){
+    padding-right: 30px;
+}
+.main-box .box-itms .box:nth-of-type(2){
+    padding: 0 30px;
+}
+.main-box .box-itms .box:nth-of-type(3){
+    padding-left: 30px;
+}
+.buy-section{
+    display: flex;
+}
+.buy-section-text{
+    margin-top: 50px;
+    width: 50%;
+}
+.buy-section-text h1{
+    width: 70%;
+}
+.buy-section-text p{
+    width: 90%;
+}
+.buy-section-img{
+    width: 50%;
+}
+.buy-section .buy-section-img img{
+    max-width: 350px;
+    float: right;
+}
+.footer-section{
+    background-image: url(img/runners.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.footer-section-text{ 
+    position: absolute;
+    width: 30%;
+    /* float: right; */
+    display: inline-block;
+    left: 40%;
+    top: 25%;
+    /* padding-top: 80px; */
+}
+.footer-section-text h1{
+    color: #fff;
+}
+.footer-section-text p{
+    color: #fff;
+}
+.footer-section-text a:hover{
+    background-color: #ce424e;
+}
