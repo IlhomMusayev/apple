@@ -18,9 +18,7 @@ a{
 .container{
     margin: 30px 200px 100px 200px;
 }
-.active{
-    color: #000;
-}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -38,7 +36,14 @@ a{
     font-weight: 500;
     font-size: 14px;
 }
+.navbar ul li a.active{
+    border-bottom: ;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    color: #000;  
+}
 .navbar ul li a:hover{
+    transition: 0.2s;
     border-bottom: 2px solid #000;
     padding-bottom: 5px;
     color: #000;  
@@ -52,6 +57,7 @@ a{
     width: 150px;
 }
 .navbar ul li input:focus{
+    border-bottom: 2px solid #000;
     outline: none;
 }
 .main{
@@ -84,6 +90,7 @@ a{
     font-weight: bold;
     background: #ce424e;
 }
+
 .main-box{
     border-top: 1px solid #9999;
     position: relative;
